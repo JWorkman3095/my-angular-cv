@@ -7,22 +7,8 @@
     <li *ngFor="let te of tech">{{ te }}</li>
   </ul>
 </div>
-<div>
-  <h2>Work History</h2>
-  <div *ngFor="let wo of workHistory">
-    <span>{{ wo.name }} </span> |
-    <span>{{ wo.pos }} </span> |
-    <span>{{ wo.location }} </span> |
-    <span>{{ wo.year }} </span> 
-  </div>
-</div>
-<div>
-  <h2>Education</h2>
-  <div *ngFor="let ed of education">
-    <span>{{ ed.school }} </span> |
-    <span>{{ ed.degree }} </span> |
-    <span>{{ ed.location }} </span> |
-    <span>{{ ed.year }} </span> 
-  </div>
-</div>
+
+<app-work></app-work>
+<app-edu></app-edu>
+
 
